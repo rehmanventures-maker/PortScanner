@@ -1,5 +1,4 @@
 # PortScanner
-# Python TCP & UDP Multithreaded Port Scanner
 
 A fast, multithreaded TCP and UDP port scanner written in Python.  
 This tool resolves a target domain to an IP address, scans TCP ports 1–65535 and UDP ports 1–10000, and logs open or filtered ports with known services.
