@@ -1,14 +1,14 @@
 # PortScanner
 
 A fast, multithreaded TCP and UDP port scanner written in Python.  
-This tool resolves a target domain to an IP address, scans TCP ports 1–65535 and UDP ports 1–10000, and logs open or filtered ports with known services.
+This tool resolves a target domain to an IP address, scans TCP ports 1–10000 and UDP ports 1–10000, and logs open or filtered ports with known services.
 
 ---
 
 ## 🚀 Features
 
 - Resolves domain names to IP addresses (DNS resolution)
-- Multithreaded TCP port scanning (1–65535)
+- Multithreaded TCP port scanning (1–10000)
 - Multithreaded UDP port scanning (1–10000)
 - Identifies common services on well-known ports
 - Correctly handles UDP open / filtered states
@@ -38,11 +38,3 @@ This tool resolves a target domain to an IP address, scans TCP ports 1–65535 a
 - No external dependencies required
 
 ---
-
-## ▶️ Usage
-
-Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/python-port-scanner.git
-cd python-port-scanner
